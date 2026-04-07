@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    font-family: poppins;
+    background-color: #1c1c1c;
+    color: white;
+    font-weight: 500;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #493385;
+    color: rgb(255, 255, 255);
+    padding: 20px 40px;
+    font-size: 25px;
+    
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.nav-links a:hover{
+    opacity: 50%;
+}
+
+.annoucement {
+    text-align: center;
+    margin: 400px;
+}
